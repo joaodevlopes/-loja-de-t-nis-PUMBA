@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'base';
+    src: url(fontes/adihausdin_cn.ttf) format(opentype);
+}
+
+body{
+    background-color:  #D2B48C;
+}
+img{
+    width: 100px;
+    height: auto;
+}
+.centralizar{
+    text-align: left;
+    color: #3C3711;
+    font-family:base, sans-serif;
+    background-color:   #8B4513;
+}
+h2{
+    color: #3C3711;
+    font-family: base, sans-serif;
+    color: white;
+    height: 100px;
+    margin: 0;
+    position: relative;
+    top: -90px;
+    left: 620px;
+}
+.imagem1{
+        width: 250px;
+        height: auto;
+        position: relative;
+        top: -110px;
+}
+
+.imagem2{
+    width: 250px;
+     height: auto;
+    position: relative;
+    top: -110px;
+    left: 70px;
+
+}
+
+.imagem3{
+    width: 250px;
+     height: auto;
+    position: relative;
+    top: -110px;
+    left: 132px;
+
+}
+
+.imagem4{
+    width: 250px;
+     height: auto;
+    position: relative;
+    top: -110px;
+    left: 180px;
+
+}
+
+.imagem5{
+    width: 250px;
+     height: auto;
+    position: relative;
+    top: 160px;
+    left: -1015px;
+
+
+}
+
+.imagem6{
+    width: 250px;
+     height: auto;
+    position: relative;
+    top: 160px;
+    left: -1050px;
+
+}
+
+.tenis1{
+    text-align: center;
+    font-family: base, sans-serif;
+    position: relative;
+    right: 22px;
+    top: -400px;
+    color: white;
+    background-color:#2A1900;
+
+}
