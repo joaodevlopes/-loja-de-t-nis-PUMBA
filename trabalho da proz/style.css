@@ -15,13 +15,14 @@ img{
     color: #3C3711;
     font-family:base, sans-serif;
     background-color:   #8B4513;
-    
+
     ;
 
 }
 h2{
     color: #3C3711;
     font-family: base, sans-serif;
+    font-size: 40px;
     color: white;
     height: 100px;
     line-height: 100px;
@@ -29,31 +30,33 @@ h2{
     position: relative;
     top: -90px;
     left: 500px;
-    
+
 }
 
 .homem{
     color: #3C3711;
     font-family: base, sans-serif;
+    font-size: 40px;
     color: white;
     height: 100px;
     line-height: 100px;
     margin: 0;
     position: relative;
     top: -190px;
-    left: 600px;
+    left: 900px;
 }
 
 .mulher{
     color: #3C3711;
     font-family: base, sans-serif;
+    font-size: 40px;
     color: white;
     height: 100px;
     line-height: 100px;
     margin: 0;
     position: relative;
     top: -290px;
-    left: 680px;
+    left: 700px;
 }
 
 .infantil{
@@ -62,22 +65,9 @@ h2{
     color: white;
     height: 100px;
     line-height: 100px;
-    margin: 0;
     position: relative;
     top: -390px;
-    left: 770px;
-}
-
-.esportes{
-    color: #3C3711;
-    font-family: base, sans-serif;
-    color: white;
-    height: 100px;
-    line-height: 100px;
-    margin: 0;
-    position: relative;
-    top: -490px;
-    left: 870px;
+    left: 1100px;
 }
 .comunidade{
     color: #3C3711;
@@ -87,6 +77,23 @@ h2{
     line-height: 100px;
     margin: 0;
     position: relative;
-    top: -590px;
-    left: 970px;
+    top: -490px;
+    left: 1300px;
+}
+
+.videoy{
+    position: relative;
+    top: -15px;
+}
+
+.banner{
+position: relative;
+top: -450px;
+
+
+}
+.video{
+    position: absolute;
+    top: 230px;
+    right: -50px;
 }
