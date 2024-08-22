@@ -42,7 +42,7 @@ h2{
     line-height: 100px;
     margin: 0;
     position: relative;
-    top: -190px;
+    top: -290px;
     left: 900px;
 }
 
@@ -55,8 +55,8 @@ h2{
     line-height: 100px;
     margin: 0;
     position: relative;
-    top: -290px;
-    left: 700px;
+    top: -190px;
+    left: 705px;
 }
 
 .infantil{
@@ -81,19 +81,19 @@ h2{
     left: 1300px;
 }
 
-.videoy{
-    position: relative;
-    top: -15px;
-}
+/*margin: -510px Margem superior (topo)
+0: Margem direita
+20px: Margem inferior (base)
+0: Margem esquerda
+*/
 
-.banner{
-position: relative;
-top: -450px;
+/* display flex: transforma um contêiner em um contêiner flexível,  se organizem de maneira flexível e dinâmica.
+Com display: flex;, você pode alinhar e distribuir os itens dentro do contêiner de várias maneiras.*/
 
+/* justify content controla o alinhamento dos itens flexíveis ao longo do eixo principal do contêiner flexível (o eixo horizontal por padrão). center: Alinha os itens no centro do eixo principal.*/
 
-}
-.video{
-    position: absolute;
-    top: 230px;
-    right: -50px;
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin:  -520px 0 20px 0;
 }
