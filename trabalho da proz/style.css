@@ -97,3 +97,12 @@ Com display: flex;, você pode alinhar e distribuir os itens dentro do contêine
     justify-content: center;
     margin:  -520px 0 20px 0;
 }
+
+.centralizar2{
+    color: white;
+    font-family:base, sans-serif;
+    position: relative;
+    margin: -1070px 0 20px 0;
+    text-align: center;
+    
+}
