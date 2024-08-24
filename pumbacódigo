@@ -1,0 +1,624 @@
+inicial.html:
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/OIG4 (1).png" type="image/x-icon">
+    <title>pumba Brasil | Tênis e calçados </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="inicial.html">
+        <h1 class="centralizar"><img src="imagens/OIG4 (1).png" alt=""></h1>
+    </a>
+    
+    <a href="pumbacalçados.html">
+        <h2>Calçados</h2>
+    </a>
+    <a href="pumbaM.html">
+        <h2 class="mulher">Feminino</h2>
+    </a>
+    <a href="homem.html">
+        <h2 class="homem">Masculino</h2>
+    </a>
+
+    <a href="pumbaI.html">
+        <h2 class="infantil">Infantil</h2>
+    </a>
+        <a href="https://www.instagram.com/joao_jzo?igsh=MTg3ajg3N2xyb2JnOA==">
+            <h2 class="comunidade">Comunidade</h2>
+        </a>
+    
+
+    <div class="video-container">
+        <video width="5300" height="950"controls>
+            <source src="video/copy_F27817F1-EC91-4783-A71C-308FCC0AEF53.mov" type="video/mp4">
+            <source src="video/copy_F27817F1-EC91-4783-A71C-308FCC0AEF53.mov" type="video/ogg">
+            Seu navegador não suporta a tag de vídeo.
+        </video>
+    </div>
+    <h1 class="centralizar2">PUMBA CALÇADOS</h1>
+
+</body>
+</html>
+
+style.css:
+@font-face {
+    font-family: 'base';
+    src: url(fontes/adihausdin_cn.ttf) format(opentype);
+}
+
+body{
+    background-color:  #D2B48C;
+}
+img{
+    width: 100px;
+    height: auto;
+}
+.centralizar{
+    text-align: left;
+    color: #3C3711;
+    font-family:base, sans-serif;
+    background-color:   #8B4513;
+
+    ;
+
+}
+h2{
+    color: #3C3711;
+    font-family: base, sans-serif;
+    font-size: 40px;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+    position: relative;
+    top: -90px;
+    left: 500px;
+
+}
+
+.homem{
+    color: #3C3711;
+    font-family: base, sans-serif;
+    font-size: 40px;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+    position: relative;
+    top: -290px;
+    left: 900px;
+}
+
+.mulher{
+    color: #3C3711;
+    font-family: base, sans-serif;
+    font-size: 40px;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+    position: relative;
+    top: -190px;
+    left: 705px;
+}
+
+.infantil{
+    color: #3C3711;
+    font-family: base, sans-serif;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    top: -390px;
+    left: 1100px;
+}
+.comunidade{
+    color: #3C3711;
+    font-family: base, sans-serif;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+    position: relative;
+    top: -490px;
+    left: 1300px;
+}
+
+/*margin: -510px Margem superior (topo)
+0: Margem direita
+20px: Margem inferior (base)
+0: Margem esquerda
+*/
+
+/* display flex: transforma um contêiner em um contêiner flexível,  se organizem de maneira flexível e dinâmica.
+Com display: flex;, você pode alinhar e distribuir os itens dentro do contêiner de várias maneiras.*/
+
+/* justify content controla o alinhamento dos itens flexíveis ao longo do eixo principal do contêiner flexível (o eixo horizontal por padrão). center: Alinha os itens no centro do eixo principal.*/
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin:  -520px 0 20px 0;
+}
+
+.centralizar2{
+    color: white;
+    font-family:base, sans-serif;
+    position: relative;
+    margin: -1070px 0 20px 0;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+pumbacalçados.html:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/OIG4 (1).png" type="image/x-icon">
+    <title>pumba Brasil | Tênis e calçados </title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+        <a href="inicial.html">
+        <h1 class="centralizar"><img src="imagens/OIG4 (1).png" alt=""></h1>
+        </a>
+
+        <h2>CALÇADOS</h2>
+
+    <a href="pumbapreços.html"><img class="imagem1" src="imagens/WhatsApp Image 2024-08-21 at 14.37.51.jpeg" alt="imagem"></a>
+
+    
+        <a href="pumbapreços.html">
+            img
+            <img class="imagem2" src="imagens/WhatsApp Image 2024-08-21 at 14.25.25 (1).jpeg" alt="imagem2">
+            <img class="imagem3" src="imagens/WhatsApp Image 2024-08-21 at 14.25.27.jpeg" alt="imagem3">
+            <img class="imagem4" src="imagens/WhatsApp Image 2024-08-21 at 14.25.26.jpeg" alt="imagem4">
+            <img class="imagem5" src="imagens/WhatsApp Image 2024-08-21 at 14.25.23.jpeg" alt="imagem5">
+            <img class="imagem6" src="imagens/WhatsApp Image 2024-08-21 at 14.37.45.jpeg" alt="imagem6">
+            <img class="imagem7" src="imagens/Imagem do WhatsApp de 2024-08-21 à(s) 14.37.49_0a1c3cdd.jpg" alt="imagem7">
+            <img class="imagem8" src="imagens/WhatsApp Image 2024-08-21 at 14.37.585.jpeg" alt="imagem8">
+            <img class="imagem9" src="imagens/WhatsApp Image 2024-08-21 at 14.25.25.jpeg" alt="imagem9">
+            <img class="imagem10" src="imagens/Imagem do WhatsApp de 2024-08-21 à(s) 14.37.49_e908320a.jpg" alt="imagem10">
+        </a>
+
+    <a href="inicial.html"><img class="voltar" src="imagens/93634.png" alt="voltar"></a>
+</body>
+</html>
+
+style2.css:
+
+@font-face {
+    font-family: 'base';
+    src: url(fontes/adihausdin_cn.ttf) format(opentype);
+}
+
+body{
+    background-color:  #D2B48C;
+}
+img{
+    width: 100px;
+    height: auto;
+}
+.centralizar{
+    text-align: left;
+    color: #3C3711;
+    font-family:base, sans-serif;
+    background-color:   #8B4513;
+}
+h2{
+    color: #3C3711;
+    font-family: base, sans-serif;
+    font-size: 70px;
+    color: white;
+    height: 100px;
+    margin: 0;
+    position: relative;
+    top: -110px;
+    left: 800px;
+}
+.imagem1{
+        width: 250px;
+        height: auto;
+        position: relative;
+        top: -110px;
+        left: 30px;
+}
+
+.imagem2{
+    width: 250px;
+    height: auto;
+    position: relative;
+    top: -110px;
+    left: 70px;
+
+}
+
+.imagem3{
+    width: 250px;
+    height: auto;
+    position: relative;
+    top: -110px;
+    left: 132px;
+
+}
+
+.imagem4{
+    width: 250px;
+    height: auto;
+    position: relative;
+    top: -110px;
+    left: 180px;
+
+}
+
+.imagem5{
+    width: 250px;
+    height: auto;
+    position: relative;
+    top: 160px;
+    left: -1015px;
+
+
+}
+
+.imagem6{
+    width: 250px;
+    height: auto;
+    position: relative;
+    top: 160px;
+    left: -948px;
+
+}
+
+.imagem7{
+    width: 250px;
+    height: auto;
+    position: relative;
+    top: 160px;
+    left: -883px;
+}
+
+.imagem8{
+    width: 250px;
+    height: auto;
+    position: relative;
+    top: -92px;
+    left: 972px;
+}
+
+.imagem9{
+    width: 250px;
+    height: auto;
+    position: relative;
+    top: -93px;
+    left: 1000px;
+}
+
+.imagem10{
+    width: 250px;
+    height: auto;
+    position: relative;
+    top: -360px;
+    left: 745px;
+}
+.voltar{
+    color: black;
+    position:relative;
+    top: -630px;
+    left: -400px;
+    
+}
+
+pumbaM.html:
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/OIG4 (1).png" type="image/x-icon">
+    <title>pumba Brasil | Tênis e calçados </title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+        <a href="inicial.html">
+        <h1 class="centralizar"><img src="imagens/OIG4 (1).png" alt=""></h1>
+        </a>
+
+        <h2>FEMININO</h2>
+
+
+        <img class="mulher1" src="imagens/mulher1.jpg" alt="mulher1">
+        <img class="mulher2" src="imagens/mulher2.jpg" alt="mulher2">
+        <img class="mulher3" src="imagens/mulher3.jpg" alt="mulher3">
+        <img class="mulher4" src="imagens/mulher4.jpg" alt="mulher4">
+        <img class="mulher5" src="imagens/mulher5.jpg" alt="mulher5">
+        <img class="mulher6" src="imagens/mulher6.jpg" alt="mulher6">
+
+        
+        <a href="inicial.html"><img class="voltar" src="imagens/93634.png" alt="voltar"></a>
+        <img class="bannerM" src="imagens/Imagem do WhatsApp de 2024-08-21 à(s) 15.13.29_afd8a8a2.jpg" alt="">
+        </body>
+        </html>
+
+homem.html:
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/OIG4 (1).png" type="image/x-icon">
+    <title>pumba Brasil | Tênis e calçados </title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+        <a href="inicial.html">
+        <h1 class="centralizar"><img src="imagens/OIG4 (1).png" alt=""></h1>
+        </a>
+
+        <h2>MASCULINO</h2>
+
+
+        <img class="homem1" src="imagens/WhatsApp Image 2024-08-21 at 14.25.25.jpeg" alt="homem1">
+        <img class="homem2" src="imagens/WhatsApp Image 2024-08-21 at 14.25.27.jpeg" alt="homem2">
+        <img class="homem3" src="imagens/WhatsApp Image 2024-08-21 at 14.37.45.jpeg" alt="homem3">
+        <img class="homem4" src="imagens/WhatsApp Image 2024-08-21 at 14.37.585.jpeg" alt="homem4">
+        <img class="homem5" src="imagens/WhatsApp Image 2024-08-21 at 14.25.23 (1).jpeg" alt="homem5">
+        <img class="homem6" src="imagens/WhatsApp Image 2024-08-21 at 14.37.51.jpeg" alt="homem6">
+
+        
+        <a href="inicial.html"><img class="voltar" src="imagens/93634.png" alt="voltar"></a>
+        <img class="bannerM" src="imagens/Imagem do WhatsApp de 2024-08-21 à(s) 15.13.29_afd8a8a2.jpg" alt="">
+        </body>
+        </html>
+
+pumbaI.html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/OIG4 (1).png" type="image/x-icon">
+    <title>pumba Brasil | Tênis e calçados </title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+        <a href="inicial.html">
+        <h1 class="centralizar"><img src="imagens/OIG4 (1).png" alt=""></h1>
+        </a>
+
+        <h2>INFANTL</h2>
+
+
+        <img class="infantil1" src="imagens/infantil1.jpg" alt="infantil1">
+        <img class="infantil2" src="imagens/infantil2.jpg" alt="infantil2">
+        <img class="infantil3" src="imagens/infantil3.jpg" alt="infantil3">
+        <img class="infantil4" src="imagens/infantil4.jpg" alt="infantil4">
+        <img class="infantil5" src="imagens/infantil5.jpg" alt="infantil5">
+        <img class="infantil6" src="imagens/infantil6.jpg" alt="infantil6">
+
+        
+        <a href="inicial.html"><img class="voltar" src="imagens/93634.png" alt="voltar"></a>
+        <img class="bannerM" src="imagens/Imagem do WhatsApp de 2024-08-21 à(s) 15.13.29_afd8a8a2.jpg" alt="">
+</body>
+</html>
+
+style3.css:
+
+@font-face {
+    font-family: 'base';
+    src: url(fontes/adihausdin_cn.ttf) format(opentype);
+}
+
+body{
+    background-color:  #D2B48C;
+}
+img{
+    width: 100px;
+    height: auto;
+}
+.centralizar{
+    text-align: left;
+    color: #3C3711;
+    font-family:base, sans-serif;
+    background-color:   #8B4513;
+}
+h2{
+    color: #3C3711;
+    font-family: base, sans-serif;
+    font-size: 70px;
+    color: white;
+    height: 100px;
+    margin: 0;
+    position: relative;
+    top: -110px;
+    left: 800px;
+}
+.mulher1{
+        width: 340px;
+        height: auto;
+        position: relative;
+        top: -110px;
+        left: 30px;
+}
+
+.mulher2{
+    width: 340px;
+    height: auto;
+    position: relative;
+    top: -110px;
+    left: 70px;
+
+}
+
+.mulher3{
+    width: 340px;
+    height: auto;
+    position: relative;
+    top: -110px;
+    left: 132px;
+
+}
+
+.mulher4{
+    width: 340px;
+    height: auto;
+    position: relative;
+    top: 250px;
+    left: -615px;
+
+}
+
+.mulher5{
+    width: 340px;
+    height: auto;
+    position: relative;
+    top: 250px;
+    left: -1345px;
+}
+
+.mulher6{
+    width: 340px;
+    height: auto;
+    position: relative;
+    top: -450px;
+    left: 820px;
+}
+
+.voltar{
+    color: black;
+    position:relative;
+    top: -1170px;
+    left: 10px;
+
+}
+
+.bannerM{
+    width: 700px;
+    height: auto;
+    position: relative;
+    top: -450px;
+    left: 740px;
+}
+
+.homem1{
+    width: 340px;
+    height: auto;
+    position: relative;
+    top: -110px;
+    left: 30px;
+}
+
+.homem2{
+    width: 340px;
+    height: auto;
+    position: relative;
+    top: -110px;
+    left: 70px;
+
+}
+
+.homem3{
+    width: 340px;
+    height: auto;
+    position: relative;
+    top: -110px;
+    left: 132px;
+
+}
+
+.homem4{
+    width: 340px;
+    height: auto;
+    position: relative;
+    top: 250px;
+    left: -615px;
+
+}
+
+.homem5{
+    width: 340px;
+    height: auto;
+    position: relative;
+    top: 250px;
+    left: -1345px;
+}
+
+.homem6{
+    width: 340px;
+    height: auto;
+    position: relative;
+    top: -450px;
+    left: 820px;
+}
+
+.infantil1{
+    width: 340px;
+    height: auto;
+    position: relative;
+    top: -110px;
+    left: 30px;
+}
+
+.infantil2{
+    width: 340px;
+    height: auto;
+    position: relative;
+    top: -110px;
+    left: 70px;
+
+}
+
+.infantil3{
+    width: 340px;
+    height: auto;
+    position: relative;
+    top: -110px;
+    left: 132px;
+
+}
+
+.infantil4{
+    width: 340px;
+    height: auto;
+    position: relative;
+    top: 250px;
+    left: -615px;
+
+}
+
+.infantil5{
+    width: 340px;
+    height: auto;
+    position: relative;
+    top: 250px;
+    left: -1345px;
+}
+
+.infantil6{
+    width: 340px;
+    height: auto;
+    position: relative;
+    top: -450px;
+    left: 820px;
+}
+
+
+
+
+
